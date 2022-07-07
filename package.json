@@ -3,6 +3,7 @@
   "displayName": "tailwindui-snippets",
   "description": "Useful tailwind ui snippets for common UI components",
   "version": "0.0.1",
+  "publisher": "evondev",
   "engines": {
     "vscode": "^1.68.0"
   },
