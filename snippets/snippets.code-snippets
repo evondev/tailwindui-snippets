@@ -1,1 +1,266 @@
-{}
+{
+  "Tailwind loading circle": {
+    "prefix": "tw-loading-circle",
+    "body": [
+      "<div className=\"w-10 h-10 border-4 border-blue-500 rounded-full animate-spin border-t-transparent\"></div>"
+    ],
+    "description": "Tailwind loading circle"
+  },
+  "Tailwind button": {
+    "prefix": "tw-button",
+    "body": [
+      "<button className=\"inline-flex items-center justify-center px-8 py-4 font-sans font-semibold tracking-wide text-white bg-blue-500 rounded-lg h-[60px]\">",
+      "          Simple Button",
+      "        </button>"
+    ],
+    "description": "Tailwind button"
+  },
+  "Tailwind button with icon": {
+    "prefix": "tw-button-icon",
+    "body": [
+      "<button className=\"inline-flex items-center gap-2 justify-center px-8 py-4 font-sans font-semibold tracking-wide text-white bg-blue-500 rounded-lg h-[60px]\">",
+      "  <span>",
+      "    <svg",
+      "      xmlns=\"http://www.w3.org/2000/svg\"",
+      "      className=\"w-6 h-6\"",
+      "      fill=\"none\"",
+      "      viewBox=\"0 0 24 24\"",
+      "      stroke=\"currentColor\"",
+      "    >",
+      "      <path",
+      "        strokeLinecap=\"round\"",
+      "        strokeLinejoin=\"round\"",
+      "        strokeWidth={2}",
+      "        d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"",
+      "      />",
+      "    </svg>",
+      "  </span>",
+      "  <span>Get started</span>",
+      "</button>"
+    ],
+    "description": "Tailwind button with icon"
+  },
+  "Tailwind input": {
+    "prefix": "tw-input",
+    "body": [
+      "<input",
+      "  type=\"text\"",
+      "  placeholder=\"Enter your content\"",
+      "  className=\"w-[300px] border border-slate-200 rounded-lg py-3 px-5 outline-none\"",
+      "/>"
+    ],
+    "description": "Tailwind input"
+  },
+  "Tailwind input search": {
+    "prefix": "tw-input-search",
+    "body": [
+      "<div className=\"flex items-center gap-5 w-[300px] border border-gray-200 rounded-lg py-3 px-5\">",
+      "  <span className=\"flex-shrink-0 text-gray-500\">",
+      "    <svg",
+      "      xmlns=\"http://www.w3.org/2000/svg\"",
+      "      className=\"w-6 h-6\"",
+      "      fill=\"none\"",
+      "      viewBox=\"0 0 24 24\"",
+      "      stroke=\"currentColor\"",
+      "    >",
+      "      <path",
+      "        strokeLinecap=\"round\"",
+      "        strokeLinejoin=\"round\"",
+      "        strokeWidth={2}",
+      "        d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"",
+      "      />",
+      "    </svg>",
+      "  </span>",
+      "  <input",
+      "    type=\"text\"",
+      "    className=\"w-full outline-none\"",
+      "    placeholder=\"Enter your content...\"",
+      "  />",
+      "</div>"
+    ],
+    "description": "Tailwind input search"
+  },
+  "Tailwind input search clear": {
+    "prefix": "tw-input-search-clear",
+    "body": [
+      " <div className=\"flex items-center gap-5 w-[300px] border border-gray-200 rounded-lg py-3 px-5\">",
+      "          <span className=\"flex-shrink-0 text-gray-500\">",
+      "            <svg",
+      "              xmlns=\"http://www.w3.org/2000/svg\"",
+      "              className=\"w-6 h-6\"",
+      "              fill=\"none\"",
+      "              viewBox=\"0 0 24 24\"",
+      "              stroke=\"currentColor\"",
+      "            >",
+      "              <path",
+      "                strokeLinecap=\"round\"",
+      "                strokeLinejoin=\"round\"",
+      "                strokeWidth={2}",
+      "                d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"",
+      "              />",
+      "            </svg>",
+      "          </span>",
+      "          <input",
+      "            type=\"text\"",
+      "            className=\"w-full outline-none\"",
+      "            placeholder=\"Enter your content...\"",
+      "          />",
+      "          <span className=\"flex-shrink-0 text-slate-500\">",
+      "            <svg",
+      "              xmlns=\"http://www.w3.org/2000/svg\"",
+      "              className=\"w-6 h-6\"",
+      "              fill=\"none\"",
+      "              viewBox=\"0 0 24 24\"",
+      "              stroke=\"currentColor\"",
+      "            >",
+      "              <path",
+      "                strokeLinecap=\"round\"",
+      "                strokeLinejoin=\"round\"",
+      "                strokeWidth={2}",
+      "                d=\"M6 18L18 6M6 6l12 12\"",
+      "              />",
+      "            </svg>",
+      "          </span>",
+      "        </div>"
+    ],
+    "description": "Tailwind input search clear"
+  },
+  "Tailwind checkbox": {
+    "prefix": "tw-checkbox",
+    "body": [
+      "<label className=\"cursor-pointer\">",
+      "  <input type=\"checkbox\" name=\"\" id=\"\" className=\"hidden\" />",
+      "  <span className=\"inline-flex items-center justify-center w-10 h-10 p-1 text-white bg-blue-500 rounded-lg\">",
+      "    <svg",
+      "      xmlns=\"http://www.w3.org/2000/svg\"",
+      "      className=\"w-5 h-5\"",
+      "      viewBox=\"0 0 20 20\"",
+      "      fill=\"currentColor\"",
+      "    >",
+      "      <path",
+      "        fillRule=\"evenodd\"",
+      "        d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\"",
+      "        clipRule=\"evenodd\"",
+      "      />",
+      "    </svg>",
+      "  </span>",
+      "</label>"
+    ],
+    "description": "Tailwind checkbox"
+  },
+  "Tailwind radio": {
+    "prefix": "tw-radio",
+    "body": [
+      "<label className=\"cursor-pointer\">",
+      "  <input type=\"radio\" name=\"\" id=\"\" className=\"hidden\" />",
+      "  <span className=\"inline-flex items-center justify-center w-10 h-10 p-1 text-opacity-0 bg-blue-500 rounded-full\">",
+      "    <span className=\"inline-block w-5 h-5 bg-white rounded-full\"></span>",
+      "  </span>",
+      "</label>"
+    ],
+    "description": "Tailwind radio"
+  },
+  "Tailwind toggle": {
+    "prefix": "tw-toggle",
+    "body": [
+      "<label className=\"cursor-pointer\">",
+      "  <input type=\"checkbox\" name=\"\" id=\"\" className=\"hidden\" />",
+      "  <span className=\"rounded-full w-[100px] bg-blue-500 p-2 inline-block h-12\">",
+      "    <span className=\"inline-block w-8 h-8 bg-white rounded-full translate-x-[52px]\"></span>",
+      "  </span>",
+      "</label>"
+    ],
+    "description": "Tailwind toggle"
+  },
+  "Tailwind dropdown": {
+    "prefix": "tw-dropdown",
+    "body": [
+      "<div className=\"w-[250px] relative\">",
+      "  <div className=\"flex items-center justify-between w-full p-4 border border-gray-200 rounded-lg cursor-pointer\">",
+      "    <span>Select the category</span>",
+      "    <span>",
+      "      <svg",
+      "        xmlns=\"http://www.w3.org/2000/svg\"",
+      "        className=\"w-5 h-5\"",
+      "        viewBox=\"0 0 20 20\"",
+      "        fill=\"currentColor\"",
+      "      >",
+      "        <path",
+      "          fillRule=\"evenodd\"",
+      "          d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\"",
+      "          clipRule=\"evenodd\"",
+      "        />",
+      "      </svg>",
+      "    </span>",
+      "  </div>",
+      "  <div className=\"absolute left-0 right-0 invisible transition-all bg-white shadow-sm opacity-0 top-full\">",
+      "    <div className=\"flex items-center justify-between w-full p-4 cursor-pointer hover:text-blue-500\">",
+      "      Crypto",
+      "    </div>",
+      "    <div className=\"flex items-center justify-between w-full p-4 cursor-pointer hover:text-blue-500\">",
+      "      Blockchain",
+      "    </div>",
+      "    <div className=\"flex items-center justify-between w-full p-4 cursor-pointer hover:text-blue-500\">",
+      "      Frontend Developer",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Tailwind dropdown"
+  },
+  "Tailwind form group": {
+    "prefix": "tw-form-group",
+    "body": [
+      "<div className=\"flex flex-col items-start gap-y-3\">",
+      "  <label htmlFor=\"name\" className=\"text-sm font-medium cursor-pointer\">",
+      "    Name",
+      "  </label>",
+      "  <input",
+      "    id=\"name\"",
+      "    type=\"text\"",
+      "    className=\"w-full p-4 bg-transparent border border-gray-200 rounded-lg outline-none\"",
+      "    placeholder=\"Enter your name\"",
+      "  />",
+      "</div>"
+    ],
+    "description": "Tailwind form group"
+  },
+  "Tailwind textarea": {
+    "prefix": "tw-textarea",
+    "body": [
+      "<textarea",
+      "  id=\"content\"",
+      "  className=\"w-full p-4 bg-transparent border border-gray-200 rounded-lg outline-none resize-none min-h-[150px]\"",
+      "  placeholder=\"Enter description\"",
+      "/>"
+    ],
+    "description": "Tailwind textarea"
+  },
+  "Tailwind tab": {
+    "prefix": "tw-tab",
+    "body": [
+      "<div className=\"flex overflow-x-auto gap-x-5 whitespace-nowrap\">",
+      "  <div className=\"flex items-center px-5 py-3 font-medium text-blue-500 rounded-lg cursor-pointer bg-blue-50 gap-x-2\">",
+      "    All category",
+      "  </div>",
+      "  <div className=\"flex items-center px-5 py-3 font-medium text-gray-900 bg-gray-100 rounded-lg cursor-pointer gap-x-2 hover:bg-blue-50 hover:text-blue-500\">",
+      "    Frontend Developer",
+      "  </div>",
+      "  <div className=\"flex items-center px-5 py-3 font-medium text-gray-900 bg-gray-100 rounded-lg cursor-pointer gap-x-2 hover:bg-blue-50 hover:text-blue-500\">",
+      "    Backend Developer",
+      "  </div>",
+      "  <div className=\"flex items-center px-5 py-3 font-medium text-gray-900 bg-gray-100 rounded-lg cursor-pointer gap-x-2 hover:bg-blue-50 hover:text-blue-500\">",
+      "    Fullstack Developer",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Tailwind tab"
+  },
+  "Tailwind overlay": {
+    "prefix": "tw-overlay",
+    "body": [
+      "<div className=\"fixed inset-0 z-40 invisible transition-all bg-black opacity-0 overlay bg-opacity-10\"></div>"
+    ],
+    "description": "Tailwind overlay"
+  }
+}
