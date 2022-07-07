@@ -7,3 +7,7 @@ All notable changes to the "tailwindui-snippets" extension will be documented in
 ### Initial release
 
 - Add some useful tailwind component snippets
+
+### 0.0.4
+
+- Add more snippets

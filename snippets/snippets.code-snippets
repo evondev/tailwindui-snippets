@@ -262,5 +262,183 @@
       "<div className=\"fixed inset-0 z-40 invisible transition-all bg-black opacity-0 overlay bg-opacity-10\"></div>"
     ],
     "description": "Tailwind overlay"
+  },
+  "Tailwind tab v2": {
+    "prefix": "tw-tab-v2",
+    "body": [
+      "<div className=\"flex min-w-[300px] rounded-full border border-gray-100 whitespace-nowrap overflow-x-auto\">",
+      "  <div className=\"flex items-center gap-x-3 cursor-pointer py-3 px-6 text-sm font-medium rounded-l-full\">",
+      "    Description",
+      "  </div>",
+      "  <div className=\"flex items-center gap-x-3 cursor-pointer py-3 px-6 text-sm font-medium border-x border-gray-100 bg-gray-100\">",
+      "    Photo & Videos",
+      "  </div>",
+      "  <div className=\"flex items-center gap-x-3 cursor-pointer py-3 px-6 text-sm font-medium rounded-r-full\">",
+      "    Map",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Tailwind tab v2"
+  },
+  "Tailwind tab v3": {
+    "prefix": "tw-tab-v3",
+    "body": [
+      "<div className=\"flex min-w-[300px] rounded-full whitespace-nowrap overflow-x-auto gap-x-3\">",
+      "  <div className=\"flex items-center gap-x-3 cursor-pointer py-3 px-6 text-sm font-medium rounded-lg border border-gray-100 overflow-hidden\">",
+      "    Description",
+      "  </div>",
+      "  <div className=\"flex items-center gap-x-3 cursor-pointer py-3 px-6 text-sm font-medium rounded-lg  bg-blue-500 text-white overflow-hidden\">",
+      "    Photo & Videos",
+      "  </div>",
+      "  <div className=\"flex items-center gap-x-3 cursor-pointer py-3 px-6 text-sm font-medium rounded-lg border border-gray-100 overflow-hidden\">",
+      "    Map",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Tailwind tab v3"
+  },
+  "Tailwind input with icon": {
+    "prefix": "tw-input-icon",
+    "body": [
+      "<div className=\"flex items-center gap-x-3 rounded-lg p-3 bg-gray-100\">",
+      "  <svg",
+      "    xmlns=\"http://www.w3.org/2000/svg\"",
+      "    className=\"h-6 w-6 flex-shrink-0 text-blue-500\"",
+      "    fill=\"none\"",
+      "    viewBox=\"0 0 24 24\"",
+      "    stroke=\"currentColor\"",
+      "  >",
+      "    <path",
+      "      strokeLinecap=\"round\"",
+      "      strokeLinejoin=\"round\"",
+      "      strokeWidth={2}",
+      "      d=\"M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z\"",
+      "    />",
+      "  </svg>",
+      "  <div className=\"w-full\">",
+      "    <input",
+      "      type=\"text\"",
+      "      className=\"w-full outline-none bg-transparent text-sm font-medium\"",
+      "      placeholder=\"Your Email\"",
+      "    />",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Tailwind input with icon"
+  },
+  "Tailwind button ghost": {
+    "prefix": "tw-button-ghost",
+    "body": [
+      "<button className=\"rounded-lg font-medium bg-blue-100 text-blue-500 px-6 py-3\">",
+      "  Request Information",
+      "</button>"
+    ],
+    "description": "Tailwind button ghost"
+  },
+  "Tailwind button outline": {
+    "prefix": "tw-button-outline",
+    "body": [
+      "<button className=\"rounded-lg font-medium bg-transparent border border-blue-500 text-blue-500 px-6 py-3\">",
+      "  Request Information",
+      "</button>"
+    ],
+    "description": "Tailwind button outline"
+  },
+  "Tailwind 5 stars": {
+    "prefix": "tw-five-stars",
+    "body": [
+      "<div className=\"flex items-center gapx-3 text-yellow-500\">",
+      "  {Array(5)",
+      "    .fill(0)",
+      "    .map((item, index) => (",
+      "      <svg",
+      "        xmlns=\"http://www.w3.org/2000/svg\"",
+      "        className=\"h-5 w-5\"",
+      "        viewBox=\"0 0 20 20\"",
+      "        fill=\"currentColor\"",
+      "        key={index}",
+      "      >",
+      "        <path d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\" />",
+      "      </svg>",
+      "    ))}",
+      "</div>"
+    ],
+    "description": "Tailwind 5 stars"
+  },
+  "Tailwind rounded icon": {
+    "prefix": "tw-rounded-icon",
+    "body": [
+      "<div className=\"w-16 h-16 rounded-full bg-blue-500 flex items-center justify-center text-white\">",
+      "  <svg",
+      "    xmlns=\"http://www.w3.org/2000/svg\"",
+      "    className=\"h-6 w-6\"",
+      "    fill=\"none\"",
+      "    viewBox=\"0 0 24 24\"",
+      "    stroke=\"currentColor\"",
+      "  >",
+      "    <path",
+      "      strokeLinecap=\"round\"",
+      "      strokeLinejoin=\"round\"",
+      "      strokeWidth={2}",
+      "      d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"",
+      "    />",
+      "  </svg>",
+      "</div>"
+    ],
+    "description": "Tailwind rounded icon"
+  },
+  "Tailwind input v2": {
+    "prefix": "tw-input-v2",
+    "body": [
+      "<div className=\"min-w-[300px] relative\">",
+      "  <label",
+      "    htmlFor=\"email\"",
+      "    className=\"cursor-pointer inline-block absolute left-4 top-0 -translate-y-2/4 bg-white p-2 z-10 text-sm font-medium\"",
+      "  >",
+      "    E-mail",
+      "  </label>",
+      "  <input",
+      "    type=\"text\"",
+      "    placeholder=\"example@gmail.com\"",
+      "    className=\"bg-transparent outline-none text-sm font-medium border border-gray-200 rounded p-4 w-full focus:border-blue-500 transition-all\"",
+      "  />",
+      "</div>"
+    ],
+    "description": "Tailwind input v2"
+  },
+  "Tailwind input v3": {
+    "prefix": "tw-input-v3",
+    "body": [
+      "<div className=\"min-w-[300px] relative\">",
+      "  <label",
+      "    htmlFor=\"email\"",
+      "    className=\"cursor-pointer inline-block absolute left-4 top-0 -translate-y-2/4 bg-white p-2 z-10 text-sm font-medium\"",
+      "  >",
+      "    E-mail",
+      "  </label>",
+      "  <input",
+      "    type=\"text\"",
+      "    placeholder=\"example@gmail.com\"",
+      "    className=\"bg-transparent outline-none text-sm font-medium border border-gray-200 rounded p-4 w-full focus:border-blue-500 transition-all pr-14\"",
+      "  />",
+      "  <span className=\"absolute top-2/4 right-4 -translate-y-2/4 text-slate-400\">",
+      "    <svg",
+      "      xmlns=\"http://www.w3.org/2000/svg\"",
+      "      className=\"h-6 w-6\"",
+      "      fill=\"none\"",
+      "      viewBox=\"0 0 24 24\"",
+      "      stroke=\"currentColor\"",
+      "    >",
+      "      <path",
+      "        strokeLinecap=\"round\"",
+      "        strokeLinejoin=\"round\"",
+      "        strokeWidth={2}",
+      "        d=\"M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z\"",
+      "      />",
+      "    </svg>",
+      "  </span>",
+      "</div>"
+    ],
+    "description": "Tailwind input v3"
   }
 }
