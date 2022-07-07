@@ -1,0 +1,25 @@
+{
+  "name": "tailwindui-snippets",
+  "displayName": "tailwindui-snippets",
+  "description": "Useful tailwind ui snippets for common UI components",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evondev/tailwindui-snippets"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html,react",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
