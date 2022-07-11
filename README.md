@@ -28,5 +28,9 @@ A bunch of tailwind snippets for common UI like button, input, dropdown, checkbo
 | `tw-dropdown`           | Display simple Dropdown                       |
 | `tw-rounded-icon`       | Display simple rounded icon                   |
 | `tw-five-stars`         | Display 5 stars rating                        |
+| `tw-modal`              | Display Modal UI component                    |
+| `tw-modal-close`        | Display circle close button                   |
+| `tw-upload`             | Display custom upload file UI                 |
+| `tw-pagi-v1`            | Display pagination                            |
 
 **Enjoy!**
