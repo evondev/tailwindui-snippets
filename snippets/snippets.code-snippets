@@ -1322,5 +1322,16 @@
       "</div>"
     ],
     "description": "Tailwind grid snap scroll horizontal"
+  },
+  "Tailwind React link wrap image": {
+    "prefix": "link-image",
+    "body": [
+      "<Link href=\"/\">",
+      "  <a className=\"flex items-center justify-start $1\">",
+      "    $2",
+      "  </a>",
+      "</Link>"
+    ],
+    "description": "Tailwind React link wrap image"
   }
 }
