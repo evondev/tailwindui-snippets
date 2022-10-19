@@ -2,7 +2,7 @@
   "name": "tailwindui-snippets",
   "displayName": "Tailwind UI Snippets",
   "description": "Useful tailwind ui snippets for common UI components",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "publisher": "evondev",
   "engines": {
     "vscode": "^1.68.0"
@@ -23,6 +23,14 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/snippets.code-snippets"
       },
       {
